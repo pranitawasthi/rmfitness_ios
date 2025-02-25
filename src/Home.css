@@ -1,0 +1,84 @@
+/* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f2937;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.home-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f8fafc;
+    margin-bottom: 8px;
+}
+
+/* Subtitle */
+.home-subtitle {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 24px;
+}
+
+/* Primary Button */
+.home-button-primary {
+    background-color: #3b82f6;
+    color: #f8fafc;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 16px;
+    margin: 10px 0;
+    width: 85%;
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.home-button-primary:hover {
+    background-color: #2563eb;
+}
+
+/* Outline Button */
+.home-button-outline {
+    background-color: transparent;
+    color: #3b82f6;
+    padding: 14px 40px;
+    border: 2px solid #3b82f6;
+    border-radius: 16px;
+    margin: 10px 0;
+    width: 85%;
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-button-outline:hover {
+    background-color: #3b82f6;
+    color: #f8fafc;
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 24px;
+    }
+
+    .home-subtitle {
+        font-size: 16px;
+    }
+
+    .home-button-primary,
+    .home-button-outline {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}

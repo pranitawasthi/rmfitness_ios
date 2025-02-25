@@ -1,0 +1,9 @@
+.attendance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 70vh; */
+    background-color: #7ba5ce;
+    /* padding: 20px; */
+}
